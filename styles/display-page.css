@@ -1,0 +1,50 @@
+main div {
+  border-width: 1px;
+  border-style: solid;
+}
+
+div.outer {
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 500px;
+  font-size: 0px;
+}
+
+div.row1 {
+  box-sizing: border-box;
+  width: 50%;
+  height: 200px;
+  display: inline-block;
+}
+
+div.elem-11 {
+  background-color: green;
+}
+
+div.elem-12 {
+  background-color: blue;
+}
+
+div.row2 {
+  box-sizing: border-box;
+  width: 33.3%;
+  height: 300px;
+  display: inline-block;
+}
+
+div.elem-21 {
+  background-color: gray;
+}
+
+div.elem-22 {
+  background-color: black;
+}
+
+div.elem-23 {
+  background-color: orange;
+  width: 33.4%;
+}
+
+
